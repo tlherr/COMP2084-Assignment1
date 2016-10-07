@@ -7,7 +7,6 @@
         <div class="form-group">
             <asp:Label ID="lblResult" Text="Result" runat="server"></asp:Label>
             <div class="col-sm-8">
-
                     <asp:RadioButtonList ID="rdioWinLoss" runat="server">
                         <asp:ListItem id="rdioOptionWin" Text="Win" Value="1"></asp:ListItem>
                         <asp:ListItem id="rdioOptionLoss" Text="Loss" Value="2"></asp:ListItem>
