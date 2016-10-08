@@ -1,5 +1,6 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="GamePanel.ascx.cs" Inherits="COMP2084_Assignment1.GamePanel" %>
 
+<!-- Start Panel -->
 <div class="col-sm-3 col-md-3">
     <div class="well">
 
@@ -78,3 +79,4 @@
         </div>
     </div>
 </div>
+<!-- End Panel -->
