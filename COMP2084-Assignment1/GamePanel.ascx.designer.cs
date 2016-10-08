@@ -76,13 +76,40 @@ namespace COMP2084_Assignment1 {
         protected global::System.Web.UI.WebControls.TextBox txtScore;
         
         /// <summary>
-        /// scoreRequiredValidator control.
+        /// txtScoreRequiredValidator control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator scoreRequiredValidator;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator txtScoreRequiredValidator;
+        
+        /// <summary>
+        /// txtScoreRangeValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RangeValidator txtScoreRangeValidator;
+        
+        /// <summary>
+        /// scoreTieValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator scoreTieValidator;
+        
+        /// <summary>
+        /// checkScoreValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CustomValidator checkScoreValidator;
         
         /// <summary>
         /// txtAllowed control.
@@ -103,6 +130,33 @@ namespace COMP2084_Assignment1 {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator allowedRequiredValidator;
         
         /// <summary>
+        /// txtAllowedRangeValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RangeValidator txtAllowedRangeValidator;
+        
+        /// <summary>
+        /// allowedTieValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator allowedTieValidator;
+        
+        /// <summary>
+        /// checkAllowedValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CustomValidator checkAllowedValidator;
+        
+        /// <summary>
         /// txtSpectators control.
         /// </summary>
         /// <remarks>
@@ -119,5 +173,14 @@ namespace COMP2084_Assignment1 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator spectatorsRequiredValidator;
+        
+        /// <summary>
+        /// txtSpectatorsRangeValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RangeValidator txtSpectatorsRangeValidator;
     }
 }
