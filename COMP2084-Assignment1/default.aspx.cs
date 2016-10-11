@@ -20,6 +20,7 @@ namespace COMP2084_Assignment1
             // Check to see if all validators ran successfully and page is ready for submission
             if(Page.IsValid)
             {
+                //Initialize integer values (counters etc.) to zero
                 int totalGames = 0;
                 int GamesWon = 0;
                 int GamesLost = 0;
@@ -30,12 +31,14 @@ namespace COMP2084_Assignment1
                 int totalSpectators = 0;
                 decimal averageSpectators;
 
+                //Adding all pannels to array to make iteration easier
                 ArrayList panels = new ArrayList();
                 panels.Add(Gamepanel1);
                 panels.Add(Gamepanel2);
                 panels.Add(Gamepanel3);
                 panels.Add(Gamepanel4);
 
+                //Iterate over panels
                 foreach (GamePanel panel in panels)
                 {
 
@@ -54,10 +57,12 @@ namespace COMP2084_Assignment1
                     totalSpectators += panel.getSpectators();
                 }
 
+                //Calculate averages and differential
                 WinPercentage = Decimal.Divide(GamesWon, totalGames) * 100;
                 pointDifferential = totalPointsScored - totalPointsAllowed;
                 averageSpectators = Decimal.Divide(totalSpectators, totalGames);
 
+                //Output results to textbox
                 System.Text.StringBuilder result = new System.Text.StringBuilder();
                 result.AppendLine("Number of Games Won: " + GamesWon.ToString());
                 result.AppendLine("Number of Games Lost: " + GamesLost.ToString());
