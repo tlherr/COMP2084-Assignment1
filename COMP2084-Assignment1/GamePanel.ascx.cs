@@ -62,7 +62,7 @@ namespace COMP2084_Assignment1
          */
         protected void checkScoreValidator_Validate(object source, ServerValidateEventArgs args)
         {
-            if(rdioWinLoss.SelectedIndex==0 && Convert.ToInt32(txtScore.Text) < Convert.ToInt32(txtAllowed.Text))
+            if(rdioWinLoss.SelectedIndex == 0 && Convert.ToInt32(txtScore.Text) < Convert.ToInt32(txtAllowed.Text))
             {
                 args.IsValid = false;
             } else
